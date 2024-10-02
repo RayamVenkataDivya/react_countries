@@ -17,7 +17,6 @@ function CountryDetails(){
             <h1>{x.cname} Country Details</h1>
             <h2>{details?.population}</h2>
             {details?.flags?.png && ( <img src={details.flags.png} alt="fgh" />)}
-
         </div>
     )
    
